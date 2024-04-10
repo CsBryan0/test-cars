@@ -53,7 +53,7 @@ Para executar o projeto em sua máquina local, siga as instruções abaixo:
 3. Navegue até o diretório raiz do projeto:
 
 	 ```bash
-	  cd tasks
+	  cd test-cars
 	 ```	
 4.  Compile o projeto usando o Maven:
    
@@ -62,7 +62,7 @@ Para executar o projeto em sua máquina local, siga as instruções abaixo:
 	```
 5. Execute a aplicação
      ```bahs
-     java -jar target/nome-do-projeto.jar
+     java -jar target/test-car.jar
     ```
 
 Após seguir essas etapas, a aplicação deve estar em execução em `http://localhost:8080`.
