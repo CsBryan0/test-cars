@@ -20,4 +20,6 @@ public class Brand {
 
     @Column(name = "nome_marca", nullable = false)
     private String brandName;
+
+
 }
