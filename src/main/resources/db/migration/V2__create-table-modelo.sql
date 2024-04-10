@@ -1,0 +1,7 @@
+CREATE TABLE modelo(
+    id INTEGER NOT NULL PRIMARY KEY IDENTITY,
+    marca_id INTEGER NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    valor_fipe DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (marca_id) REFERENCES marca(id)
+);
